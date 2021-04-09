@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    font-size:14px;
+}
+#header{
+    font-size:15px;
+    display:flex;
+    margin-left: 80%;
+    margin-top:20px;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    padding:8px;
+    font-size:13px;
+}
+nav a:nth-child(3){
+    position:relative;
+    top:3px;
+}
+.signIn {
+    border: solid 1px;
+    border-radius: 7px;
+    padding:9px 19px 9px 19px;
+    background-color:rgb(71, 74, 253);
+    color:white;  
+}
+#logo{
+   margin-left: auto;
+   margin-right: auto;
+   width: 8em;
+   position: relative;
+   bottom: 50px;;
+}
+.box{
+   width: 43%;
+   border-radius: 15px;
+   padding:10px;
+   margin-left: 33%;
+   border:solid 1px rgb(209, 208, 208);
+   position: relative;
+   bottom: 120px;
+}
+#searchbox{
+    border: none;
+    outline: none;
+    width: 70%;
+    margin-left:10px;
+}
+.tabs {
+    display:flex;
+    margin-left: 40%;
+    margin-top:30px;
+    font-size:13px;
+    position: relative;
+    bottom: 120px;
+}
+.tabs a{
+    text-decoration: none;
+    color:black;
+}
+.tabs a:first-child{
+    margin-right:40px;
+    margin-left:60px;
+    background-color:whitesmoke;
+    padding:5px 9px 5px 9px;  
+}
+.tabs a:last-child{
+    padding:5px 9px 5px 9px;
+    background-color:whitesmoke;
+}
+.offers{
+    display:flex;
+    justify-content: space-around;
+    width:35%;
+    margin-left:37%;
+    margin-top:30px;
+    position: relative;
+    bottom: 120px;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    position:relative;
+    top:75px;
+    color:grey;
+}
+#country{
+    padding:10px 0px 10px 25px;
+    background-color: whitesmoke;
+    color:grey;
+    border-bottom: 1px solid rgb(209, 208, 208);
+}
+.footer-nav{
+    display:flex;
+    justify-content: space-around;
+    padding-top:15px;
+    background-color: whitesmoke;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+    position:relative;
+    right:60px;
+}
+.footer-links-right{
+    display:flex;
+    justify-content: space-between;
+    width:15%;
+    position: relative;
+    left: 50px;
+}
+.footer a{
+    color:grey;
+}
+a:hover{
+    text-decoration: underline;
+}
+.tabs a:hover{
+    border:solid 1px whitesmoke;
+    border-radius:7px;
+    text-decoration:none;
+    padding:8px;
+    position: static;
+}
